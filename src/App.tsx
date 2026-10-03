@@ -284,7 +284,7 @@ function App() {
     <div className="app-shell">
       <aside className="sidebar">
         <div className="brand" style={{ padding: '16px 20px', display: 'flex', justifyContent: 'center' }}>
-            <img src="./logo.png" alt="Midas Logo" style={{ width: '100%', maxWidth: '160px', height: 'auto', objectFit: 'contain' }} />
+            <img src="./logo.png" alt="Midas Logo" style={{ width: '100%', maxWidth: '80px', height: 'auto', objectFit: 'contain' }} />
           </div>
         <nav>
           <NavItem
