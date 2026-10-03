@@ -8,7 +8,7 @@ replacements = [
     ("nova-3d-printer-manager", "midas-printer-control")
 ]
 
-include_exts = {'.ts', '.tsx', '.json', '.html', '.md', '.css', '.js'}
+include_exts = {'.ts', '.tsx', '.json', '.html', '.md', '.css', '.js', '.xml', '.java', '.gradle', '.properties'}
 
 for root, dirs, files in os.walk('.'):
     # Skip node_modules and .git (though we deleted them, just in case)
