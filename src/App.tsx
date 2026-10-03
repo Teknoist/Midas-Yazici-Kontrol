@@ -359,7 +359,7 @@ function App() {
               <RefreshCw className={refreshing ? "spin" : ""} size={18} />
             </button>
             <button className="primary-button" onClick={() => setModal("new")}>
-              <Plus size={17} /> {tr("Yazıcı ekle", "Add printer")}
+              <Plus size={17} /> <span className="btn-text">{tr("Yazıcı ekle", "Add printer")}</span>
             </button>
           </div>
         </header>

@@ -205,7 +205,8 @@ button:disabled { opacity: .42; pointer-events: none; }
   .main { height: auto; overflow: visible; }
   .topbar { height: calc(86px + env(safe-area-inset-top)); padding: calc(18px + env(safe-area-inset-top)) 16px 14px; }
   .topbar h1 { font-size: 20px; }
-  .top-actions .primary-button { width: 38px; padding: 0; font-size: 0; }
+  .top-actions .primary-button { width: 38px; padding: 0; gap: 0; }
+  .top-actions .primary-button .btn-text { display: none; }
   .content { padding: 20px 14px calc(96px + env(safe-area-inset-bottom)); }
   .printer-grid, .bottom-grid, .settings-grid { grid-template-columns: 1fr; }
   .split-view { grid-template-columns: 1fr; }
