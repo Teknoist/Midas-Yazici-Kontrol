@@ -337,7 +337,7 @@ function App() {
             </small>
           </div>
         </div>
-        <div className="sidebar-version">MİDAS YAZICI KONTROL · v1.0.4</div>
+        <div className="sidebar-version">MİDAS YAZICI KONTROL · v1.0.5</div>
       </aside>
 
       <main className="main">
