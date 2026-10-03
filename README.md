@@ -20,7 +20,9 @@ Midas Yazıcı Kontrol, birden fazla Nova3D ve SDCP 3.0 destekli reçine yazıc�
 
 ## Ekran görüntüleri
 
-![Genel görünüm](docs/screenshots/overview.png)
+![Genel görünüm (Koyu)](docs/screenshots/overview.png)
+
+![Genel görünüm (Açık)](docs/screenshots/overview-light.png)
 
 ![Dosya merkezi](docs/screenshots/file-center.png)
 
