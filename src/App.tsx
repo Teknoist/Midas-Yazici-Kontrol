@@ -284,13 +284,11 @@ function App() {
     <div className="app-shell">
       <aside className="sidebar">
         <div className="brand">
-          <div className="brand-mark">
-            <Boxes size={19} />
-          </div>
-          <div>
-            <strong>NOVA</strong>
-            <span>FLEET</span>
-          </div>
+          <img src="/logo.png" alt="Midas Logo" style={{ width: '40px', height: '40px', objectFit: 'contain' }} />
+            <div>
+              <strong>MİDAS</strong>
+              <span>YAZICI KONTROL</span>
+            </div>
         </div>
         <nav>
           <NavItem
@@ -339,7 +337,7 @@ function App() {
             </small>
           </div>
         </div>
-        <div className="sidebar-version">NOVA 3D PRINTER MANAGER · v0.7.6</div>
+        <div className="sidebar-version">MİDAS YAZICI KONTROL · v0.7.6</div>
       </aside>
 
       <main className="main">
