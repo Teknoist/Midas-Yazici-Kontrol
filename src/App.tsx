@@ -283,13 +283,9 @@ function App() {
   return (
     <div className="app-shell">
       <aside className="sidebar">
-        <div className="brand">
-          <img src="./logo.png" alt="Midas Logo" style={{ width: '40px', height: '40px', objectFit: 'contain' }} />
-            <div style={{ whiteSpace: 'nowrap' }}>
-              <strong>MİDAS</strong>
-              <span style={{ fontSize: '10px' }}>YAZICI KONTROL</span>
-            </div>
-        </div>
+        <div className="brand" style={{ padding: '16px 20px', display: 'flex', justifyContent: 'center' }}>
+            <img src="./logo.png" alt="Midas Logo" style={{ width: '100%', maxWidth: '160px', height: 'auto', objectFit: 'contain' }} />
+          </div>
         <nav>
           <NavItem
             active={view === "overview"}
