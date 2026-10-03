@@ -283,8 +283,12 @@ function App() {
   return (
     <div className="app-shell">
       <aside className="sidebar">
-        <div className="brand" style={{ padding: '16px 20px', display: 'flex', justifyContent: 'center' }}>
-            <img src="./logo.png" alt="Midas Logo" style={{ width: '100%', maxWidth: '80px', height: 'auto', objectFit: 'contain' }} />
+        <div className="brand" style={{ gap: '12px', padding: '24px 20px', display: 'flex', alignItems: 'center' }}>
+            <img src="./logo.png" alt="Midas Logo" style={{ width: '40px', height: '40px', objectFit: 'contain' }} />
+            <div style={{ whiteSpace: 'nowrap', display: 'flex', flexDirection: 'column' }}>
+              <strong style={{ fontSize: '18px', fontWeight: '800', lineHeight: '1' }}>MİDAS</strong>
+              <span style={{ fontSize: '11px', color: 'var(--soft)', fontWeight: '600', letterSpacing: '1px', textTransform: 'uppercase', marginTop: '2px' }}>TEKNOLOJİ</span>
+            </div>
           </div>
         <nav>
           <NavItem

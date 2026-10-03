@@ -5,7 +5,7 @@ const path = require('path');
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1280, height: 720 } });
   
-  await page.goto('http://localhost:5173');
+  await page.goto('http://localhost:5174');
   await page.waitForTimeout(2000); // Wait for animations
   await page.screenshot({ path: 'docs/screenshots/overview.png' });
   
@@ -23,7 +23,7 @@ const path = require('path');
 
   // Android version overview
   const mobilePage = await browser.newPage({ viewport: { width: 412, height: 915 } });
-  await mobilePage.goto('http://localhost:5173');
+  await mobilePage.goto('http://localhost:5174');
   await mobilePage.waitForTimeout(2000);
   await mobilePage.screenshot({ path: 'docs/screenshots/android-overview.png' });
 
